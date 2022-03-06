@@ -21,6 +21,9 @@ if percent > 0:
  
     #print('Resized Dimensions : ',image.shape)
 
+#cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.namedWindow('image')
 cv2.imshow('image', image)
+#cv2.resizeWindow('image', 600, 600)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
