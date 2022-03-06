@@ -257,7 +257,7 @@ if args.filter_brightness:
 # print("Adjust AutoAdjustmentBlackWhite")
 # photos = [ AutoAdjustmentBlackWhite(photo) 
             # for photo in photos ]
-if args.filter_enharnce:
+if args.filter_enhance:
     print("Enhance")
     photos = [ enhance(photo) 
                 for photo in photos ] 
